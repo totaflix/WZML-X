@@ -141,7 +141,7 @@ if len(TELEGRAM_HASH) == 0:
     log_error("TELEGRAM_HASH variable is missing! Exiting now")
     exit(1)
     
-TIMEZONE = environ.get('TIMEZONE', '')
+TIMEZONE = environ.get('TIMEZONE', 'Asia/Kolkata')
 if len(TIMEZONE) == 0:
     TIMEZONE = 'Asia/Kolkata'
     
